@@ -1,2 +1,2 @@
-module cursoOca {
+module CursoJava {
 }
