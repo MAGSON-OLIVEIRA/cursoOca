@@ -3,7 +3,9 @@ package heranca.com;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Residencial r = new Residencial();
+		// o primeiro metodo da subclass
+		r.telefonar();
 
 	}
 

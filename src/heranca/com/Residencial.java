@@ -6,14 +6,14 @@ public class Residencial extends Telefone {
 	public void telefonar() {
 		
 		// se caso o super for usado vai chamar o metodo da super class
-		//super.telefonar();
+		// super.telefonar();
 		System.out.println("Residencial");
 	}
 
 	
-	// esse exemplo não ha sobrescrita de método, 
-	// Métodos sobrescritos devem ter a mesma assinatura
-	// (tipo de retorno, nome do método e parametros)
+	// esse exemplo nï¿½o ha sobrescrita de mï¿½todo, 
+	// Mï¿½todos sobrescritos devem ter a mesma assinatura
+	// (tipo de retorno, nome do mï¿½todo e parametros)
 	public void telefonar(int i) {
 		System.out.println("Residencial");
 	}
