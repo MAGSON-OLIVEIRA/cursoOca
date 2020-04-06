@@ -12,6 +12,8 @@ public class Principal {
 		// ja segue o padrão brasileiro
 		// tem como definir outros padroes. 
 		//
+		System.out.printf("%b", 123);
+		
 		NumberFormat nf1 = NumberFormat.getNumberInstance();
 		String s1 = nf1.format(d);
 		System.out.println(s1);

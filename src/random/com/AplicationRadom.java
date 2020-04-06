@@ -26,6 +26,11 @@ public class AplicationRadom {
 	static int gerarRadomDeIntervalo(int inicio, int fim) {
 		int intervalo = fim - inicio;
 		int n = (int) (Math.random()* intervalo) + inicio;
+		
+		// inter valor 33 - 20 = 13
+		// math.random sempre inicia com 0,234 X 13    + 20 
+		// o numero gerado 23,04
+		
 		return n;
 	}
 
