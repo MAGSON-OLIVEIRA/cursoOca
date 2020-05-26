@@ -18,7 +18,7 @@ public class ExecutadoAutoboxing {
 		// fazendo o auto boxing java novo 12
 		
 		int i4 = 10;
-		int i5 = (int) h.setObject(i);
+		int i5 = (int) h.setObject(i4);
 		
 		
 		///// outro exemplo como se fosse versão antiga auto boxin

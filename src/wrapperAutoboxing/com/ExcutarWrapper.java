@@ -7,6 +7,8 @@ public class ExcutarWrapper {
 		Integer i = Integer.valueOf(20);
 		Double d = Double.valueOf(23.3);
 		imprimr(i);
+		
+		// intValue retorna o valor primitivo do wrappers
 		int i2 = i.intValue();
 		double d2 = d.intValue();
 		// exemplos de parses
