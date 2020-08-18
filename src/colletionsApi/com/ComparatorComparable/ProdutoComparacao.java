@@ -1,15 +1,21 @@
 package colletionsApi.com.ComparatorComparable;
 
+import java.util.Date;
+
 // comparação
 public class ProdutoComparacao implements Comparable<ProdutoComparacao> {
 	
 	private int id;
 	private String descricao;
 	private double valor;
-	public ProdutoComparacao(int id, String descricao, double valor) {
+	
+	private Date data;
+	
+	public ProdutoComparacao(int id, String descricao, double valor, Date data) {
 		this.id = id;
 		this.descricao = descricao;
 		this.valor = valor;
+		this.data = data;
 	}
 	public int getId() {
 		return id;
@@ -29,6 +35,15 @@ public class ProdutoComparacao implements Comparable<ProdutoComparacao> {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
+	
+	public Date getData() {
+		return data;
+	}
+	
+	public void setData(Date data) {
+		this.data = data;
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;

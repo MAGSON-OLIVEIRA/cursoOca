@@ -15,9 +15,9 @@ public class MapasAplication {
 		// PASSADOIS TIPO DE PARAMETROS
 		
 		// Se usar classe por exemplo INTEGER
-		Map<Integer, Produto> map0 = new HashMap<>(); // não garante a ordem da insercão
+		Map<Integer, Produto> map = new HashMap<>(); // não garante a ordem da insercão
 		Map<Integer, Produto> map1 = new LinkedHashMap<>(); // nesse caso é garantido a ordem de insercão. 
-		Map<Integer, Produto> map = new TreeMap<>(); // dos os tree garante a ordenação das chaves de forma crescente no caso da String ja tem comparate
+		Map<Integer, Produto> map0 = new TreeMap<>(); // dos os tree garante a ordenação das chaves de forma crescente no caso da String ja tem comparate
 		// HASHMAP
 		// AS CHAVE NÃO FICA NA ORDEM DE INSERSÃO. 
 		// SE USA O PUT
