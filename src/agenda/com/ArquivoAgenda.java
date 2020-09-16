@@ -39,6 +39,7 @@ public class ArquivoAgenda {
 		List<Contato> contatos = new ArrayList<Contato>();
 		Scanner scanner = null;
 		try {
+			
 			scanner = new Scanner(new File(ARQUIVO_AGENDA));
 			while(scanner.hasNextLine()) {
 				String contatoStr = scanner.nextLine();

@@ -4,7 +4,7 @@ public class ContaBancaria {
 	
 	//private final Object monit = new Object(); // todo obj tem um look . 
 	
-	// podemos usar o this. que é o proprio obj ContaBancaria
+	// podemos usar o this. que é o proprio obj ContaBancaria é o monitor
 	
 	private double saldo = 1000;
 	
